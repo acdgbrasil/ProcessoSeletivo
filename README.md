@@ -142,13 +142,13 @@ De acordo com os pseudos codigos diga o que se saira como desejado, caso o pseud
     
     soma(valor1,valor2):
         return valor1 + valor2
-    -----------------------------------
+
     Resultado:
         Entrada: soma(100,5)
         Saida: 105
         A saida está correta? : 
         Precisa mudar algo? : 
-    -----------------------------------
+    
     multiplicacao(valor1,valor2):
         return valor1 * valor2
     
