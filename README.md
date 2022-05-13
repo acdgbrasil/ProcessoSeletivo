@@ -131,33 +131,36 @@ Entrada:
 - DESAFIO 04:
 De acordo com os pseudos codigos diga o que se saira como desejado, caso o pseudo codigo esta errado informe por que está errado.
 
-    soma(valor1,valor2):
-        return valor1 - valor2
+       ```
+      soma(valor1,valor2):
+      return valor1 - valor2
     
+    ```
+
     Resultado:
         Entrada: soma(45,5)
         Saida: 50
         A saida está correta? : 
         Precisa mudar algo? : 
-    
-    soma(valor1,valor2):
+    ```    
+      soma(valor1,valor2):
         return valor1 + valor2
-
+    ```
     Resultado:
         Entrada: soma(100,5)
         Saida: 105
         A saida está correta? : 
         Precisa mudar algo? : 
     
-    multiplicacao(valor1,valor2):
+    ```
+      multiplicacao(valor1,valor2):
         return valor1 * valor2
-    
+    ```
     Resultado:
         Entrada: multiplicacao(10,5)
         Saida: 50
         A saida está correta? : 
         Precisa mudar algo? : 
-
 - DESAFIO 05:
 Quinto desafio:
     
