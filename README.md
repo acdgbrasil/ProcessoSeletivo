@@ -171,13 +171,13 @@ Quinto desafio:
   | `array_original` | `[int]` | Esse será o array que os valores serão invertidos |
 
     Exemplo:
-    Entrada: [1,2,3,4,5] 
-    Saida: [-1,-2,-3,-4,-5]
+      Entrada: [1,2,3,4,5] 
+      Saida: [-1,-2,-3,-4,-5]
 
     
     Exemplo:
-    Entrada: [1,-22,3,-4,5] 
-    Saida: [-1,2,-3,4,-5]
+      Entrada: [1,-22,3,-4,5] 
+      Saida: [-1,22,-3,4,-5]
 
 - DESAFIO 06:
 
