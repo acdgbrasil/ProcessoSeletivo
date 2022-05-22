@@ -11,13 +11,12 @@ caso exista, para o email: gaderaldo10@gmail.com. Com o assunto: PROCESSO SELETI
 
 - DESAFIO 01: 
 
-        Implemente uma função que converta o valor booleano fornecido em sua representação de string.
-        Nota: Somente entradas válidas serão fornecidas.
+        Implemente uma função que converta o valor booleano fornecido, para uma saida em string com o mesmo valor.
 
 
     | Parâmetro   | Tipo       | Descrição                           |
     | :---------- | :--------- | :---------------------------------- |
-    | `string_entrada` | `Bool` | Essa será a string que será convertida para um bool |
+    | `bool_entrada` | `Bool` | Essa será o booleano que será convertida para uma string |
 
    #### Retorno da função
 
@@ -164,7 +163,7 @@ e ele está aflito se irá conseguir passar na materia de algoritimos.
 - DESAFIO 05:
 Quinto desafio:
     
-  Dado um conjunto de números, retorne o inverso aditivo de cada um. Cada positivo torna-se negativo, e os negativos tornam-se positivos.
+  Dado um conjunto de números, retorne o inverso de cada um. Cada positivo torna-se negativo, e os negativos tornam-se positivos.
     
   | Parâmetro   | Tipo       | Descrição                           |
   | :---------- | :--------- | :---------------------------------- |
