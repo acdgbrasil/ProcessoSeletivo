@@ -5,7 +5,7 @@ Seja bem vindo ao processo seletivo da ACDG.
 Nessa parte do processo você irá resolver 6 desafios no tempo que conseguir. 
 Quando terminar mande ou mande o link de um repositorio com todos os desafios 
 completos, ou mande a pasta com os codigos e os execultaveis
-caso exista para o email: gaderaldo10@gmail.com. Com o assunto: PROCESSO SELETIVO - ACDG 
+caso exista, para o email: gaderaldo10@gmail.com. Com o assunto: PROCESSO SELETIVO - ACDG 
 
 ## Desafios
 
@@ -17,12 +17,12 @@ caso exista para o email: gaderaldo10@gmail.com. Com o assunto: PROCESSO SELETIV
 
     | Parâmetro   | Tipo       | Descrição                           |
     | :---------- | :--------- | :---------------------------------- |
-    | `string_entrada` | `string` | Essa será a string que será convertida para um bool |
+    | `string_entrada` | `Bool` | Essa será a string que será convertida para um bool |
 
    #### Retorno da função
 
     ```http
-      Retornará tipo boleano com o valor correspondente da entrada. 
+        Retornará tipo string com o valor correspondente da entrada boleana. 
     ```
         Exemplo:
         Entrada: false 
@@ -57,110 +57,110 @@ No entanto, ele foi informado de que o castelo está cercado por alguns dragões
 nosso herói não tem ideia de quantas balas ele deve carregar. Supondo que ele vai pegar um determinado número de balas e avançar para lutar contra
 outro determinado número de dragões, ele sobreviverá?
 
-   #### Retorno da função
-    Retorna True se sim, False caso contrário
-    
-- DESAFIO 04:
+  dado uma entrada 
+
+  | Parâmetro   | Tipo       | Descrição                           |
+  | :---------- | :--------- | :---------------------------------- |
+  | `numero_de_balas` | `int` | Essa será a string que será invertida |
+  | `numero_de_dragões` | `int` | Essa será a string que será invertida |
+
   
-OBS: Esse desafio é particulamente mais chato de realizar então não se acanhe se não conseguir.
-
-A Terra Média está prestes a entrar em guerra. As forças do bem terão muitas batalhas com as forças do mal. Diferentes raças certamente estarão envolvidas.
-Cada raça tem um certo valor ao lutar contra outras. Do lado do bem temos as seguintes raças, com o seu valor associado:
-
-  Do lado do bom temos:
-  | RAÇAS    |    Quantidades|
-  |----------|:-------------:|
-  | Hobbits  | 1             | 
-  | Homens   | 2             |
-  | Elfos    | 3             |  
-  | Anões    | 3             |
-  | Águias   | 4             |
-  | Magos    | 10            |
-
-  Do lado do mal temos:
-  | RAÇAS    |    Quantidades|
-  |----------|:-------------:|
-  | Orcs     | 1             | 
-  | Homens   | 2             |
-  | Wargs    | 2             |  
-  | Goblins  | 2             |
-  | Uruk Hai | 3             |
-  | Trolls   | 5             |
-  | Magos    | 10            |
-
-Embora o clima, a localização, os suprimentos e o valor desempenhem um papel em qualquer batalha, se você somar o valor do lado do bem e compará-lo com o valor do lado do mal,
-o lado com o maior valor tenderá a vencer.
-
-Assim, dada a contagem de cada uma das raças do lado do bem, seguida da contagem de cada uma das raças do lado do mal, determine qual lado vence.
-
-Entrada:
     
-    A função receberá dois parâmetros. Cada parâmetro será uma string de vários inteiros separados por um único espaço. Cada string conterá a contagem de cada raça do lado do bem e do mal.
-
-    O primeiro parâmetro conterá a contagem de cada corrida do lado bom na seguinte ordem:
-
-    Hobbits, Homens, Elfos, Anões, Águias, Magos.
+   #### Retorno da função
+    O retorno será em strig, informando o numero de balas que restou, a quantidade de dragões que foram abatidos e se ele irá sobreviver.
     
-    EXEMPLO: "2 10 10 2 4 6"
-
-    O segundo parâmetro conterá a contagem de cada raça do lado do mal na seguinte ordem:
-
-    Orcs, Homens, Wargs, Goblins, Uruk-Hai, Trolls, Magos.
-
-    EXEMPLO: "1 10 10 2 4 6"
-
-    Todos os valores são inteiros não negativos. A soma resultante do valor de cada lado não excederá o limite de um inteiro de 32 bits.
-
-  ```
-  func evaluate(good: String, evil: String) -> String {
-    //seu codigo aqui... lembre que pode implementar na linguagem que desejar.
-  }
-
-  ```
-
-  SAIDA:
-    ```O retorno da função
-      será tipo string
-    ```
-      
-      Saida:  "Battle Result: Good triumphs over Evil" ***caso o lado bom vença***
-      Saida:  "Battle Result: Evil eradicates all trace of Good", ***caso o lado mal vença***
-      Saida:  "Battle Result: No victor on this battle field", ***caso haja empate***
-
-
 - DESAFIO 04:
-De acordo com os pseudos codigos diga o que se saira como desejado, caso o pseudo codigo esta errado informe por que está errado.
+  Breno está no primeiro semestre de computação, 
+e ele está aflito se irá conseguir passar na materia de algoritimos.
+ Então ele decidiu fazer uma pequena função que irá calcular suas notas e dizer se ele 
+ foi aprovado ou não, e se ele precisará fazer a terceira prova, já que em sua universidaden 
+ se um aluno tiver uma media aritimetica das duas primeiras notas maior que 8, 
+ ele não precisa fazer a terceira prova. Breno então foi na coordenação do curso e pegou 
+ os criterios de aprovação para todos os casos. Ajude o Breno a fazer uma função que receba 
+ como parametro de entrada um vetor com as 2 notas de 0…10 e saia uma string dizendo se ele foi 
+ aprovado ou não, e caso ele vá para a prova final, qual a nota que ele precisará para poder ser 
+ aprovado na materia.
 
-       ```
-      soma(valor1,valor2):
-        return valor1 - valor2
-    
-    ```
+  dado uma entrada 
 
-    Resultado:
-        Entrada: soma(45,5)
-        Saida: 50
-        A saida está correta? : 
-        Precisa mudar algo? : 
-    ```    
-      soma(valor1,valor2):
-        return valor1 + valor2
-    ```
-    Resultado:
-        Entrada: soma(100,5)
-        Saida: 105
-        A saida está correta? : 
-        Precisa mudar algo? : 
+  | Parâmetro   | Tipo       | Descrição                           |
+  | :---------- | :--------- | :---------------------------------- |
+  | `notas_obtidas` | `[int]` | esse vetor contem as duas primeiras notas do aluno |
+
+  Criterios de aprovação do aluno fornecidos pela coordenação
+
+  | legenda de nomeclatura das provas | Descrição |
+  |----------|:-------------:|
+  | AV1  | primeira prova realizada pelo aluno | 
+  | AV2 | segunda prova realizada pelo aluno  |
+  | AF |  prova final, realizada caso o aluno não atinja a media precisa na AV1 e AV2 |  
+
+
+  | Descrição do criterio de aprovação | resultado |
+  |----------|:-------------:|
+  | (AV1 + AV2) / 2 >= 8 | passou sem final| 
+  | (AV1 + AV2) / 2 >= 4 & <= 7.9 | irá para final  |
+  | [(AV1 + AV2) + AF]/ 2 >= 5 |  Aluno aprovado |
+  | (AV1 + AV2) / 2 < 4  |  Aluno reprovado |
+  | [(AV1 + AV2) + AF]/ 2 < 5  |  Aluno reprovado |  
+  
+
+  Exemplos de calculos de medias:
+  
+  EX1:
+
+    AV1: NOTA - 8
+    AV2: NOTA - 4
+    AF: 6
+
+    media regular: (8 + 4) / 2 => 6 
+
+    resultado -> a nota do aluno na media da primeira prova mais a segunda deu 6 então
+    ele terá que realizar a prova final.
+
+    media final: (media regular + AF) / 2
+
+    resultado de aprovação: nota 6 - Passou na materia.
+
+  EX2:
+  
+    AV1: NOTA - 8
+    AV2: NOTA - 10
+    AF: -
+
+    media regular: (8 + 10) / 2 => 9
+
+    resultado -> a nota do aluno na media da primeira prova mais a segunda deu 9, 
+    então o aluno não precisará realizar a prova final. APROVADO DIRETAMENTE.
+
+  EX3:
+  
+    AV1: NOTA - 4
+    AV2: NOTA - 4
+    AF: 4
+
+    media regular: (4 + 4) / 2 => 4 
+
+    resultado -> a nota do aluno na media da primeira prova mais a segunda deu 4 então
+    ele terá que realizar a prova final.
+
+    media final: (media regular + AF) / 2
+
+    resultado de aprovação: nota 4 - Infelismente o aluno reprovou na materia.
+  
+  EX4:
+  
+    AV1: NOTA - 2
+    AV2: NOTA - 4
+    AF: -
+
+    media regular: (2 + 4) / 2 =>  3 
+
+    resultado -> Infelismente o aluno reprovou na materia.
+
+   #### Retorno da função
+    O retorno esperado é uma string.
     
-    ```
-      multiplicacao(valor1,valor2):
-        return valor1 * valor2
-    ```
-    Resultado:
-        Entrada: multiplicacao(10,5)
-        Saida: 50
-        A saida está correta? : 
-        Precisa mudar algo? : 
 - DESAFIO 05:
 Quinto desafio:
     
