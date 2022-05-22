@@ -61,8 +61,8 @@ outro determinado número de dragões, ele sobreviverá?
 
   | Parâmetro   | Tipo       | Descrição                           |
   | :---------- | :--------- | :---------------------------------- |
-  | `numero_de_balas` | `int` | Essa será a string que será invertida |
-  | `numero_de_dragões` | `int` | Essa será a string que será invertida |
+  | `numero_de_balas` | `int` | Numero de balas que o heroi irá carregar |
+  | `numero_de_dragões` | `int` | Numero de dragões que o heroi irá derrotar |
 
   
     
