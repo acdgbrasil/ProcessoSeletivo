@@ -109,58 +109,58 @@ e ele está aflito se irá conseguir passar na materia de algoritimos.
   
   EX1:
 
-    AV1: NOTA - 8
-    AV2: NOTA - 4
-    AF: 6
+      AV1: NOTA - 8
+      AV2: NOTA - 4
+      AF: 6
 
-    media regular: (8 + 4) / 2 => 6 
+      media regular: (8 + 4) / 2 => 6 
 
-    resultado -> a nota do aluno na media da primeira prova mais a segunda deu 6 então
-    ele terá que realizar a prova final.
+      resultado -> a nota do aluno na media da primeira prova mais a segunda deu 6 então
+      ele terá que realizar a prova final.
 
-    media final: (media regular + AF) / 2
+      media final: (media regular + AF) / 2
 
-    resultado de aprovação: nota 6 - Passou na materia.
+      resultado de aprovação: nota 6 - Passou na materia.
 
   EX2:
   
-    AV1: NOTA - 8
-    AV2: NOTA - 10
-    AF: -
+      AV1: NOTA - 8
+      AV2: NOTA - 10
+      AF: -
 
-    media regular: (8 + 10) / 2 => 9
+      media regular: (8 + 10) / 2 => 9
 
-    resultado -> a nota do aluno na media da primeira prova mais a segunda deu 9, 
-    então o aluno não precisará realizar a prova final. APROVADO DIRETAMENTE.
+      resultado -> a nota do aluno na media da primeira prova mais a segunda deu 9, 
+      então o aluno não precisará realizar a prova final. APROVADO DIRETAMENTE.
 
   EX3:
   
-    AV1: NOTA - 4
-    AV2: NOTA - 4
-    AF: 4
+      AV1: NOTA - 4
+      AV2: NOTA - 4
+      AF: 4
 
-    media regular: (4 + 4) / 2 => 4 
+      media regular: (4 + 4) / 2 => 4 
 
-    resultado -> a nota do aluno na media da primeira prova mais a segunda deu 4 então
-    ele terá que realizar a prova final.
+      resultado -> a nota do aluno na media da primeira prova mais a segunda deu 4 então
+      ele terá que realizar a prova final.
 
-    media final: (media regular + AF) / 2
+      media final: (media regular + AF) / 2
 
-    resultado de aprovação: nota 4 - Infelismente o aluno reprovou na materia.
+      resultado de aprovação: nota 4 - Infelismente o aluno reprovou na materia.
   
   EX4:
   
-    AV1: NOTA - 2
-    AV2: NOTA - 4
-    AF: -
+      AV1: NOTA - 2
+      AV2: NOTA - 4
+      AF: -
 
-    media regular: (2 + 4) / 2 =>  3 
+      media regular: (2 + 4) / 2 =>  3 
 
-    resultado -> Infelismente o aluno reprovou na materia.
+      resultado -> Infelismente o aluno reprovou na materia.
 
    #### Retorno da função
     O retorno esperado é uma string.
-    
+
 - DESAFIO 05:
 Quinto desafio:
     
